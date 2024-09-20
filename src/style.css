@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.timer {
+    font-size: 48px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 24px;
+    color: #34495e;
+    margin: 20px 0;
+}
+
+.author {
+    font-size: 18px;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 32px;
+    color: #2ecc71;
+    margin-bottom: 20px;
+}
+
+.todo-container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    margin-left: 10px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #95a5a6;
+}
